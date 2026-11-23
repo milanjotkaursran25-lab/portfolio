@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+  try { document.documentElement.setAttribute("data-theme", localStorage.getItem("theme") || "light"); }
+  catch (e) { document.documentElement.setAttribute("data-theme", "light"); }
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Milanjot Kaur — Full-Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="progress"></div>
+<div id="progress"></div>
+<button id="theme-toggle" aria-label="Switch theme"></button>
+
+<div class="layout">
+
+<div class="layout">
+
+
+
+  <aside>
+    <div>
+      <img class="avatar" src="photo.jpg" alt="Milanjot Kaur" onerror="this.style.display='none'">
+      <div class="eyebrow">Portfolio</div>
+      <h1>Milanjot <span>Kaur</span></h1>
+      <p>Full-Stack Developer · MERN Stack</p>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="socials">
+      <a href="https://github.com/milanjotkaursran25-lab" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/milanjot-kaur-177237373" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mlnjtkaur@gmail.com&su=Hello%20Milanjot" target="_blank" rel="noopener">Email</a>
+    </div>
+  </aside>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="eyebrow" style="margin-bottom:18px">Hello, I'm Milanjot · <span id="typed"></span></div>
+      <h2>I build full-stack web apps with <em>React, Node.js</em> and AI.</h2>
+      <p>From secure REST APIs to AI-powered features with Google Gemini, I turn ideas into fast, responsive and deployed products.</p>
+      <div class="btns">
+        <a class="btn primary" href="#projects">View My Work</a>
+        <a class="btn ghost" href="resume.pdf" download="Milanjot_Kaur_Resume.pdf">Download Resume ↓</a>
+        <a class="btn ghost" href="#contact">Get in Touch</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2><span class="num">01</span>About</h2>
+      <div class="about">
+        <div>
+          <p>I'm a motivated Full-Stack Developer with hands-on experience designing and building web applications using HTML, CSS, JavaScript, Node.js, Express.js and MongoDB.</p>
+          <p>I build RESTful APIs, implement JWT-based authentication, manage database operations and integrate AI features using Google Gemini. I'm currently pursuing a BCA at Eternal University and eager to solve real-world problems in a dynamic development team.</p>
+        </div>
+        <div class="stats">
+          <div class="stat"><b>3</b><span>Deployed projects</span></div>
+          <div class="stat"><b>MERN</b><span>Core stack</span></div>
+          <div class="stat"><b>3</b><span>Languages spoken</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2><span class="num">02</span>Skills</h2>
+      <div class="skill-groups">
+        <div class="group"><h4>Frontend</h4>
+          <div class="tags"><span>JavaScript (ES6+)</span><span>React.js</span><span>HTML5</span><span>CSS3</span><span>Responsive Design</span></div></div>
+        <div class="group"><h4>Backend</h4>
+          <div class="tags"><span>Node.js</span><span>Express.js</span><span>REST APIs</span><span>JWT</span><span>bcrypt</span><span>Python</span></div></div>
+        <div class="group"><h4>Databases</h4>
+          <div class="tags"><span>MongoDB</span><span>MongoDB Atlas</span><span>Mongoose</span><span>MySQL</span></div></div>
+        <div class="group"><h4>AI Integration</h4>
+          <div class="tags"><span>Google Gemini API</span><span>Prompt Engineering</span></div></div>
+        <div class="group"><h4>DevOps / Tools</h4>
+          <div class="tags"><span>Git</span><span>GitHub</span><span>Postman</span><span>npm</span><span>VS Code</span><span>Vercel</span><span>Render</span></div></div>
+        <div class="group"><h4>Testing</h4>
+          <div class="tags"><span>API testing (Postman)</span><span>Manual testing &amp; debugging</span></div></div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2><span class="num">03</span>Projects</h2>
+      <div class="grid">
+        <div class="card wide">
+          <small>Featured · AI-Powered</small>
+          <h3>CollabSphere</h3>
+          <p>A full-stack developer collaboration platform with project management and project-specific Markdown notes, plus full CRUD REST APIs. Secured with JWT authentication and bcrypt hashing, with Google Gemini generating AI explanations and improvement suggestions for notes. Frontend on Vercel, backend on Render, data in MongoDB Atlas.</p>
+          <div class="stack">React.js · Node.js · Express.js · MongoDB · JWT · Gemini API</div>
+          <div class="links">
+            <a href="https://collab-sphere-sou2.vercel.app/" target="_blank" rel="noopener">Live Demo ↗</a>
+            <a href="https://github.com/milanjotkaursran25-lab/CollabSphere.git" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+        <div class="card">
+          <small>Full-Stack Web App</small>
+          <h3>Student Feedback Manager</h3>
+          <p>REST API with Express and Mongoose to submit and retrieve feedback, ratings and comments, stored persistently in MongoDB and rendered dynamically in React. API tested with Postman.</p>
+          <div class="stack">React.js · Node.js · Express.js · MongoDB</div>
+          <div class="links">
+            <a href="https://phase-6-beige.vercel.app/" target="_blank" rel="noopener">Live Demo ↗</a>
+            <a href="https://github.com/milanjotkaursran25-lab/phase-6.git" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+        <div class="card">
+          <small>AI-Powered Web App</small>
+          <h3>Ask Gemini</h3>
+          <p>A responsive app that sends user prompts through an Express backend to the Google Gemini API and shows the responses, with error handling for empty prompts and failed API calls.</p>
+          <div class="stack">JavaScript · Node.js · Express.js · Gemini API</div>
+          <div class="links">
+            <a href="https://ai-powered-web-application.vercel.app/" target="_blank" rel="noopener">Live Demo ↗</a>
+            <a href="https://github.com/milanjotkaursran25-lab/AI-Powered-Web-Application.git" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2><span class="num">04</span>Experience &amp; Education</h2>
+      <div class="timeline">
+        <div class="job">
+          <small>03/2026 — 08/2026 · Himachal Pradesh</small>
+          <h3>Outreach Facilitator · NavGurukul Foundation</h3>
+          <p>Coordinated outreach activities, built community connections and encouraged participation. Strengthened teamwork, leadership, public speaking, time management and organisational skills.</p>
+        </div>
+        <div class="job">
+          <small>08/2025 — Present · Himachal Pradesh</small>
+          <h3>Bachelor of Computer Applications (BCA) · Eternal University</h3>
+          <p>Pursuing a degree in computer applications while building full-stack projects.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates">
+      <h2><span class="num">05</span>Certificates &amp; Languages</h2>
+      <div class="cert-grid">
+        <div class="stat"><b>CodeChef</b><span>500 Difficulty Problem Practice Certificate</span></div>
+        <div class="stat"><b>YFS</b><span>Virtual Internship Program · 2026</span></div>
+      </div>
+      <div class="tags" style="margin-top:20px">
+        <span>English</span><span>Hindi</span><span>Punjabi</span>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2><span class="num">06</span>Contact</h2>
+      <p>Have a project in mind, an opportunity, or just want to say hello? My inbox is always open.</p>
+      <div class="btns" style="margin-top:0">
+        <a class="btn primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=mlnjtkaur@gmail.com&su=Hello%20Milanjot" target="_blank" rel="noopener">mlnjtkaur@gmail.com</a>
+        <a class="btn ghost" href="resume.pdf" download="Milanjot_Kaur_Resume.pdf">Download Resume ↓</a>
+      </div>
+    </section>
+
+    <footer>© 2026 Milanjot Kaur. All rights reserved.</footer>
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
